@@ -47,7 +47,7 @@ public class DataLoader implements ApplicationRunner {
         folder2.addFile(file2);
         fileRepository.save(file2);
         folderRepository.save(folder2);
-        
+
     }
 
 }

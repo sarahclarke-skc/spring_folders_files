@@ -21,8 +21,7 @@ public class User {
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     private List<Folder> folders;
 
-    public User(Long id, String name) {
-        this.id = id;
+    public User(String name) {
         this.name = name;
     }
 
